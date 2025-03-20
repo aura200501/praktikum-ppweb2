@@ -23,6 +23,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Buku Tamu</title>
+    <style>
+        body {
+            background-color: #f8d3e0; /* Warna latar belakang soft pink */
+            font-family: Arial, sans-serif; /* Font yang lebih baik */
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            background-color: #ffffff; /* Warna latar belakang kontainer */
+            border-radius: 8px; /* Sudut melengkung */
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Bayangan */
+            padding: 20px;
+        }
+        h4 {
+            color: #d5006d; /* Warna teks judul */
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse; /* Menghilangkan jarak antara border */
+        }
+        th, td {
+            border: 1px solid #d5006d; /* Warna border tabel */
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #f1a7b5; /* Warna latar belakang header tabel */
+            color: #ffffff; /* Warna teks header tabel */
+        }
+        tr:nth-child(even) {
+            background-color: #f8c4d4; /* Warna latar belakang baris genap */
+        }
+        tr:hover {
+            background-color: #f1a7b5; /* Warna latar belakang saat hover */
+        }
+    </style>
 </head>
 <body>
     <div class="container">
